@@ -3,9 +3,9 @@ declare(strict_types=1);
 
 namespace TheNewHEROBRINE\Murder;
 
-use pocketmine\scheduler\PluginTask;
+use pocketmine\scheduler\Task;
 
-class MurderTimer extends PluginTask {
+class MurderTimer extends Task {
     /**
      * @param int $tick
      */
